@@ -10,49 +10,49 @@ const INGREDIENTS = [
     benefit: "Soothes and comforts reactive, easily irritated skin",
     image: "/images/Centella Asiatica Extract.png",
     width: 378,
-    height: 585,
+    height: 378,
   },
   {
     name: "PDRN (Sodium DNA)",
     benefit: "Supports skin repair and barrier recovery",
     image: "/images/PDRN (Sodium DNA).png",
     width: 378,
-    height: 585,
+    height: 378,
   },
   {
     name: "Madecassoside",
     benefit: "Helps calm visible redness and supports skin recovery",
     image: "/images/Madecassoside.png",
     width: 378,
-    height: 585,
+    height: 378,
   },
   {
     name: "Ectoin",
     benefit: "Helps protect and calm stressed, reactive skin",
     image: "/images/Ectoin.png",
     width: 378,
-    height: 585,
+    height: 378,
   },
   {
     name: "Beta-Glucan",
     benefit: "Delivers calming, cushioning hydration",
     image: "/images/Beta-Glucan.png",
     width: 378,
-    height: 585,
+    height: 378,
   },
   {
     name: "Sodium Hyaluronate",
     benefit: "Lightweight hydration that plumps and soothes dryness",
     image: "/images/Sodium Hyaluronate.png",
     width: 378,
-    height: 585,
+    height: 378,
   },
   {
     name: "Niacinamide",
     benefit: "Helps minimize the look of visible redness and even skin tone",
     image: "/images/Niacinamide.png",
     width: 378,
-    height: 585,
+    height: 378,
   },
 ];
 
@@ -92,7 +92,7 @@ function IngredientRow({ name, benefit, image, width, height, index }) {
           </div>
 
           <div className="mx-auto">
-            <div className="aspect-[378/585] w-full max-w-[clamp(90px,19vw,190px)] overflow-hidden rounded-2xl shadow-md shadow-ink/10 transition-transform duration-300 ease-out group-hover:scale-[1.02]">
+            <div className="aspect-square w-full max-w-[clamp(90px,19vw,190px)] overflow-hidden rounded-2xl shadow-md shadow-ink/10 transition-transform duration-300 ease-out group-hover:scale-[1.02]">
               <Image
                 src={image}
                 alt={name}
