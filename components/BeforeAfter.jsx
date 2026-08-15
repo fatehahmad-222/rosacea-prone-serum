@@ -14,16 +14,16 @@ export default function BeforeAfter() {
         <Reveal className="mt-10">
           <div className="hidden md:block">
             <Image
-              src="/images/before-after-barrier-wide.png"
+              src="/images/Frame 259.png"
               alt="Before: compromised skin barrier. After: healthy-looking skin barrier."
-              width={2928}
-              height={1200}
+              width={1800}
+              height={1350}
               className="h-auto w-full rounded-2xl"
             />
           </div>
           <div className="md:hidden">
             <Image
-              src="/images/before-after-barrier-tall.png"
+              src="/images/Frame 259.png"
               alt="Before: compromised skin barrier. After: healthy-looking skin barrier."
               width={1800}
               height={1350}
