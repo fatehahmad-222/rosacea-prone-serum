@@ -17,7 +17,7 @@ export default function BeforeAfter() {
               src="/images/Frame 259.png"
               alt="Before: compromised skin barrier. After: healthy-looking skin barrier."
               width={1800}
-              height={1350}
+              height={1215}
               className="h-auto w-full rounded-2xl"
             />
           </div>
@@ -26,7 +26,7 @@ export default function BeforeAfter() {
               src="/images/Frame 259.png"
               alt="Before: compromised skin barrier. After: healthy-looking skin barrier."
               width={1800}
-              height={1350}
+              height={1215}
               className="h-auto w-full rounded-2xl"
             />
           </div>
