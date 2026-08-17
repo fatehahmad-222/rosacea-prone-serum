@@ -113,17 +113,7 @@ export default function WhyChoose() {
           </div>
         </Reveal>
 
-        <Reveal className="mt-10">
-          <div className="overflow-hidden rounded-2xl">
-            <Image
-              src="/images/Frame 256.png"
-              alt="Why choose Murasaki Beauty Rosacea-Prone Redness-Calming Serum"
-              width={2928}
-              height={1200}
-              className="h-auto w-full"
-            />
-          </div>
-        </Reveal>
+
       </div>
     </section>
   );
