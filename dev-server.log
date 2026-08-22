@@ -1,0 +1,391 @@
+
+> rosceaprone-serum@0.1.0 dev
+> next dev
+
+▲ Next.js 16.3.0 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://192.168.56.1:3000
+✓ Ready in 1009ms
+✓ Running next.config.mjs took 27ms
+⚠ Slow filesystem detected. The benchmark took 885ms. If \\?\D:\Rosceaprone-serum\.next\dev is a network drive, consider moving it to a local folder.
+See more: https://nextjs.org/docs/app/guides/local-development
+
+○ Compiling / ...
+ GET / 200 in 21.1s (next.js: 20.3s, application-code: 826ms)
+ GET / 200 in 167ms (next.js: 8ms, application-code: 159ms)
+[browser] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.js">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <RootLayout>
+                        <html
+                          lang="en"
+-                         crxlauncher=""
+                        >
+                          ...
+                            <main className="flex-1">
+                              <section>
+                              <VideoSection>
+                                <section className="bg-white p...">
+                                  <div className="mx-auto ma...">
+                                    <Reveal className="text-center">
+                                      <div
+                                        ref={{current:null}}
++                                       className="transition-all duration-700 ease-out will-change-transform opacity-..."
+-                                       className="transition-all duration-700 ease-out will-change-transform opacity-..."
+                                        style={{transitionDelay:"0ms"}}
+                                      >
+                                    <Reveal className="mt-10">
+                                      <div
+                                        ref={{current:null}}
++                                       className="transition-all duration-700 ease-out will-change-transform opacity-..."
+-                                       className="transition-all duration-700 ease-out will-change-transform opacity-..."
+                                        style={{transitionDelay:"0ms"}}
+                                      >
+                              <section>
+                              <PoweredBy>
+                                <section className="bg-white p...">
+                                  <div className="mx-auto ma...">
+                                    <Reveal className="mx-auto ma...">
+                                      <div
+                                        ref={{current:null}}
++                                       className="transition-all duration-700 ease-out will-change-transform opacity-..."
+-                                       className="transition-all duration-700 ease-out will-change-transform opacity-..."
+                                        style={{transitionDelay:"0ms"}}
+                                      >
+                                    <div className="mt-12 grid...">
+                                      <div className="grid gap-5...">
+                                        <Reveal delay={0}>
+                                          <div
+                                            ref={{current:null}}
++                                           className={"transition-all duration-700 ease-out will-change-transform op..."}
+-                                           className={"transition-all duration-700 ease-out will-change-transform op..."}
+                                            style={{transitionDelay:"0ms"}}
+                                          >
+                                        <Reveal delay={120}>
+                                          <div
+                                            ref={{current:null}}
++                                           className={"transition-all duration-700 ease-out will-change-transform op..."}
+-                                           className={"transition-all duration-700 ease-out will-change-transform op..."}
+                                            style={{transitionDelay:"120ms"}}
+                                          >
+                                        <Reveal delay={240}>
+                                          <div
+                                            ref={{current:null}}
++                                           className={"transition-all duration-700 ease-out will-change-transform op..."}
+-                                           className={"transition-all duration-700 ease-out will-change-transform op..."}
+                                            style={{transitionDelay:"240ms"}}
+                                          >
+                                      <div className="hidden lg:...">
+                                        <Reveal direction="right">
+                                          <div
+                                            ref={{current:null}}
++                                           className={"transition-all duration-700 ease-out will-change-transform op..."}
+-                                           className={"transition-all duration-700 ease-out will-change-transform op..."}
+                                            style={{transitionDelay:"0ms"}}
+                                          >
+                              <BenefitsBand>
+                                <section id="benefits" className="scroll-mt-...">
+                                  <div className="mx-auto ma...">
+                                    <Reveal>
+                                      <div
+                                        ref={{current:null}}
++                                       className={"transition-all duration-700 ease-out will-change-transform opacit..."}
+-                                       className={"transition-all duration-700 ease-out will-change-transform opacit..."}
+                                        style={{transitionDelay:"0ms"}}
+                                      >
+                                    <div className="mt-10 grid...">
+                                      <Reveal delay={0}>
+                                        <div
+                                          ref={{current:null}}
++                                         className={"transition-all duration-700 ease-out will-change-transform opac..."}
+-                                         className={"transition-all duration-700 ease-out will-change-transform opac..."}
+                                          style={{transitionDelay:"0ms"}}
+                                        >
+                                      <Reveal delay={100}>
+                                        <div
+                                          ref={{current:null}}
++                                         className={"transition-all duration-700 ease-out will-change-transform opac..."}
+-                                         className={"transition-all duration-700 ease-out will-change-transform opac..."}
+                                          style={{transitionDelay:"100ms"}}
+                                        >
+                                      <Reveal delay={200}>
+                                        <div
+                                          ref={{current:null}}
++                                         className={"transition-all duration-700 ease-out will-change-transform opac..."}
+-                                         className={"transition-all duration-700 ease-out will-change-transform opac..."}
+                                          style={{transitionDelay:"200ms"}}
+                                        >
+                                      <Reveal delay={300}>
+                                        <div
+                                          ref={{current:null}}
++                                         className={"transition-all duration-700 ease-out will-change-transform opac..."}
+-                                         className={"transition-all duration-700 ease-out will-change-transform opac..."}
+                                          style={{transitionDelay:"300ms"}}
+                                        >
+                                    <Reveal className="mt-10">
+                                      <div
+                                        ref={{current:null}}
++                                       className="transition-all duration-700 ease-out will-change-transform opacity-..."
+-                                       className="transition-all duration-700 ease-out will-change-transform opacity-..."
+                                        style={{transitionDelay:"0ms"}}
+                                      >
+                                  ...
+                              <StatsBand>
+                                <section className="bg-gradien...">
+                                  <div className="mx-auto ma...">
+                                    <Reveal>
+                                      <div
+                                        ref={{current:null}}
++                                       className={"transition-all duration-700 ease-out will-change-transform opacit..."}
+-                                       className={"transition-all duration-700 ease-out will-change-transform opacit..."}
+                                        style={{transitionDelay:"0ms"}}
+                                      >
+                                    <Reveal className="mt-10">
+                                      <div
+                                        ref={{current:null}}
++                                       className="transition-all duration-700 ease-out will-change-transform opacity-..."
+-                                       className="transition-all duration-700 ease-out will-change-transform opacity-..."
+                                        style={{transitionDelay:"0ms"}}
+                                      >
+                                    <div className="mt-12 grid...">
+                                      <Reveal delay={0}>
+                                        <div
+                                          ref={{current:null}}
++                                         className={"transition-all duration-700 ease-out will-change-transform opac..."}
+-                                         className={"transition-all duration-700 ease-out will-change-transform opac..."}
+                                          style={{transitionDelay:"0ms"}}
+                                        >
+                                      <Reveal delay={100}>
+                                        <div
+                                          ref={{current:null}}
++                                         className={"transition-all duration-700 ease-out will-change-transform opac..."}
+-                                         className={"transition-all duration-700 ease-out will-change-transform opac..."}
+                                          style={{transitionDelay:"100ms"}}
+                                        >
+                                      <Reveal delay={200}>
+                                        <div
+                                          ref={{current:null}}
++                                         className={"transition-all duration-700 ease-out will-change-transform opac..."}
+-                                         className={"transition-all duration-700 ease-out will-change-transform opac..."}
+                                          style={{transitionDelay:"200ms"}}
+                                        >
+                                      <Reveal delay={300}>
+                                        <div
+                                          ref={{current:null}}
++                                         className={"transition-all duration-700 ease-out will-change-transform opac..."}
+-                                         className={"transition-all duration-700 ease-out will-change-transform opac..."}
+                                          style={{transitionDelay:"300ms"}}
+                                        >
+                                    <Reveal>
+                                      <div
+                                        ref={{current:null}}
++                                       className={"transition-all duration-700 ease-out will-change-transform opacit..."}
+-                                       className={"transition-all duration-700 ease-out will-change-transform opacit..."}
+                                        style={{transitionDelay:"0ms"}}
+                                      >
+                              ...
+                                <div className="mx-auto ma...">
+                                  <div>
+                                  <ol className="mx-auto mt...">
+                                    <IngredientRow name="Centella A..." benefit="Soothes an..." image="/images/Ce..." ...>
+                                      <li
+                                        ref={{current:null}}
++                                       className="group transition-all duration-700 ease-out translate-y-8 opacity-0"
+-                                       className="group transition-all duration-700 ease-out translate-y-0 opacity-100"
+                                        style={{transitionDelay:"0ms"}}
+                                      >
+                                    <IngredientRow name="PDRN (Sodi..." benefit="Supports s..." image="/images/PD..." ...>
+                                      <li
+                                        ref={{current:null}}
++                                       className="group transition-all duration-700 ease-out translate-y-8 opacity-0"
+-                                       className="group transition-all duration-700 ease-out translate-y-0 opacity-100"
+                                        style={{transitionDelay:"60ms"}}
+                                      >
+                                    <IngredientRow name="Madecassoside" benefit="Helps calm..." image="/images/Ma..." ...>
+                                      <li
+                                        ref={{current:null}}
++                                       className="group transition-all duration-700 ease-out translate-y-8 opacity-0"
+-                                       className="group transition-all duration-700 ease-out translate-y-0 opacity-100"
+                                        style={{transitionDelay:"120ms"}}
+                                      >
+                                    <IngredientRow name="Ectoin" benefit="Helps prot..." image="/images/Ec..." ...>
+                                      <li
+                                        ref={{current:null}}
++                                       className="group transition-all duration-700 ease-out translate-y-8 opacity-0"
+-                                       className="group transition-all duration-700 ease-out translate-y-0 opacity-100"
+                                        style={{transitionDelay:"180ms"}}
+                                      >
+                                    <IngredientRow name="Beta-Glucan" benefit="Delivers c..." image="/images/Be..." ...>
+                                      <li
+                                        ref={{current:null}}
++                                       className="group transition-all duration-700 ease-out translate-y-8 opacity-0"
+-                                       className="group transition-all duration-700 ease-out translate-y-0 opacity-100"
+                                        style={{transitionDelay:"240ms"}}
+                                      >
+                                    <IngredientRow name="Sodium Hya..." benefit="Lightweigh..." image="/images/So..." ...>
+                                      <li
+                                        ref={{current:null}}
++                                       className="group transition-all duration-700 ease-out translate-y-8 opacity-0"
+-                                       className="group transition-all duration-700 ease-out translate-y-0 opacity-100"
+                                        style={{transitionDelay:"300ms"}}
+                                      >
+                                    <IngredientRow name="Niacinamide" benefit="Helps mini..." image="/images/Ni..." ...>
+                                      <li
+                                        ref={{current:null}}
++                                       className="group transition-all duration-700 ease-out translate-y-8 opacity-0"
+-                                       className="group transition-all duration-700 ease-out translate-y-0 opacity-100"
+                                        style={{transitionDelay:"360ms"}}
+                                      >
+                                  ...
+                              <BeforeAfter>
+                                <section className="bg-white p...">
+                                  <div className="mx-auto ma...">
+                                    <Reveal className="text-center">
+                                      <div
+                                        ref={{current:null}}
++                                       className="transition-all duration-700 ease-out will-change-transform opacity-..."
+-                                       className="transition-all duration-700 ease-out will-change-transform opacity-..."
+                                        style={{transitionDelay:"0ms"}}
+                                      >
+                                    <Reveal className="mt-10">
+                                      <div
+                                        ref={{current:null}}
++                                       className="transition-all duration-700 ease-out will-change-transform opacity-..."
+-                                       className="transition-all duration-700 ease-out will-change-transform opacity-..."
+                                        style={{transitionDelay:"0ms"}}
+                                      >
+                                    <Reveal>
+                                      <div
+                                        ref={{current:null}}
++                                       className={"transition-all duration-700 ease-out will-change-transform opacit..."}
+-                                       className={"transition-all duration-700 ease-out will-change-transform opacit..."}
+                                        style={{transitionDelay:"0ms"}}
+                                      >
+                              <VisibleDailyCare>
+                                <section className="bg-bg-mute...">
+                                  <div className="mx-auto ma...">
+                                    <Reveal className="text-center">
+                                      <div
+                                        ref={{current:null}}
++                                       className="transition-all duration-700 ease-out will-change-transform opacity-..."
+-                                       className="transition-all duration-700 ease-out will-change-transform opacity-..."
+                                        style={{transitionDelay:"0ms"}}
+                                      >
+                                    <Reveal className="mt-10">
+                                      <div
+                                        ref={{current:null}}
++                                       className="transition-all duration-700 ease-out will-change-transform opacity-..."
+-                                       className="transition-all duration-700 ease-out will-change-transform opacity-..."
+                                        style={{transitionDelay:"0ms"}}
+                                      >
+                                    <Reveal>
+                                      <div
+                                        ref={{current:null}}
++                                       className={"transition-all duration-700 ease-out will-change-transform opacit..."}
+-                                       className={"transition-all duration-700 ease-out will-change-transform opacit..."}
+                                        style={{transitionDelay:"0ms"}}
+                                      >
+                              <HowToUse>
+                                <section id="how-to-use" className="scroll-mt-...">
+                                  <div className="mx-auto ma...">
+                                    <Reveal className="text-center">
+                                      <div
+                                        ref={{current:null}}
++                                       className="transition-all duration-700 ease-out will-change-transform opacity-..."
+-                                       className="transition-all duration-700 ease-out will-change-transform opacity-..."
+                                        style={{transitionDelay:"0ms"}}
+                                      >
+                                    <Reveal className="mt-12">
+                                      <div
+                                        ref={{current:null}}
++                                       className="transition-all duration-700 ease-out will-change-transform opacity-..."
+-                                       className="transition-all duration-700 ease-out will-change-transform opacity-..."
+                                        style={{transitionDelay:"0ms"}}
+                                      >
+                              <WhyChoose>
+                                <section id="why-choose-it" className="scroll-mt-...">
+                                  <div className="mx-auto ma...">
+                                    <Reveal className="text-center">
+                                      <div
+                                        ref={{current:null}}
++                                       className="transition-all duration-700 ease-out will-change-transform opacity-..."
+-                                       className="transition-all duration-700 ease-out will-change-transform opacity-..."
+                                        style={{transitionDelay:"0ms"}}
+                                      >
+                                    <div className="mt-12 grid...">
+                                      <Reveal>
+                                        <div
+                                          ref={{current:null}}
++                                         className={"transition-all duration-700 ease-out will-change-transform opac..."}
+-                                         className={"transition-all duration-700 ease-out will-change-transform opac..."}
+                                          style={{transitionDelay:"0ms"}}
+                                        >
+                                      <Reveal delay={120}>
+                                        <div
+                                          ref={{current:null}}
++                                         className={"transition-all duration-700 ease-out will-change-transform opac..."}
+-                                         className={"transition-all duration-700 ease-out will-change-transform opac..."}
+                                          style={{transitionDelay:"120ms"}}
+                                        >
+                                    <Reveal className="mt-10">
+                                      <div
+                                        ref={{current:null}}
++                                       className="transition-all duration-700 ease-out will-change-transform opacity-..."
+-                                       className="transition-all duration-700 ease-out will-change-transform opacity-..."
+                                        style={{transitionDelay:"0ms"}}
+                                      >
+                                    <Reveal className="mt-10">
+                                      <div
+                                        ref={{current:null}}
++                                       className="transition-all duration-700 ease-out will-change-transform opacity-..."
+-                                       className="transition-all duration-700 ease-out will-change-transform opacity-..."
+                                        style={{transitionDelay:"0ms"}}
+                                      >
+                              <FAQ>
+                                <section id="faq" className="scroll-mt-...">
+                                  <div className="mx-auto ma...">
+                                    <Reveal className="text-center">
+                                      <div
+                                        ref={{current:null}}
++                                       className="transition-all duration-700 ease-out will-change-transform opacity-..."
+-                                       className="transition-all duration-700 ease-out will-change-transform opacity-..."
+                                        style={{transitionDelay:"0ms"}}
+                                      >
+                                    <Reveal className="mt-10">
+                                      <div
+                                        ref={{current:null}}
++                                       className="transition-all duration-700 ease-out will-change-transform opacity-..."
+-                                       className="transition-all duration-700 ease-out will-change-transform opacity-..."
+                                        style={{transitionDelay:"0ms"}}
+                                      >
+                              ...
+                  ...
+ 
+    at <unknown> (chrome-extension://kiilhncajadbgbmdbdcopdpnmdhlbdle/assets/js/content.js:13:96450)
+    at d (chrome-extension://kiilhncajadbgbmdbdcopdpnmdhlbdle/assets/js/content.js:13:96560)
+    at f (chrome-extension://kiilhncajadbgbmdbdcopdpnmdhlbdle/assets/js/content.js:13:96661) (chrome-extension://kiilhncajadbgbmdbdcopdpnmdhlbdle/assets/js/content.js:13:96450)
+ GET / 200 in 552ms (next.js: 247ms, application-code: 305ms)
