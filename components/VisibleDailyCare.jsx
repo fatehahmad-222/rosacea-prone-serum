@@ -12,15 +12,7 @@ export default function VisibleDailyCare() {
         </Reveal>
 
         <Reveal className="mt-10">
-          <div className="hidden md:block">
-            <Image
-              src="/images/visible-daily-care-4panel-wide.png"
-              alt="Visible daily care across four panels — skin hydration, barrier recovery, skin comfort, and healthy-looking skin"
-              width={2928}
-              height={1200}
-              className="h-auto w-full rounded-2xl"
-            />
-          </div>
+          
           <div className="md:hidden">
             <Image
               src="/images/visible-daily-care-4panel-tall.png"
