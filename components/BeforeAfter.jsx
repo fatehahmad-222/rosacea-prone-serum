@@ -12,22 +12,13 @@ export default function BeforeAfter() {
         </Reveal>
 
         <Reveal className="mt-10">
-          <div className="hidden md:block">
+          <div className="overflow-hidden rounded-2xl">
             <Image
               src="/images/Frame 259.png"
               alt="Before: compromised skin barrier. After: healthy-looking skin barrier."
               width={1800}
               height={1093}
-              className="h-auto w-full rounded-2xl"
-            />
-          </div>
-          <div className="md:hidden">
-            <Image
-              src="/images/Frame 259.png"
-              alt="Before: compromised skin barrier. After: healthy-looking skin barrier."
-              width={1800}
-              height={1093}
-              className="h-auto w-full rounded-2xl"
+              className="h-auto w-full object-cover"
             />
           </div>
         </Reveal>
@@ -35,11 +26,18 @@ export default function BeforeAfter() {
         <Reveal>
           <div className="mt-10 overflow-hidden rounded-2xl">
             <Image
+              src="/images/Frame 292.png"
+              alt="Rosacea-Prone Redness-Calming Serum on display"
+              width={2928}
+              height={1200}
+              className="block h-auto w-full"
+            />
+            <Image
               src="/images/Frame 293.png"
               alt="Barrier repair results with the Rosacea-Prone Redness-Calming Serum"
               width={2928}
               height={1200}
-              className="h-auto w-full"
+              className="block h-auto w-full"
             />
           </div>
         </Reveal>

@@ -50,7 +50,7 @@ export default function WhyChoose() {
                   alt="Murasaki Beauty Rosacea-Prone Redness-Calming Serum bottle"
                   width={2000}
                   height={2000}
-                  className="mx-auto h-56 w-auto object-contain sm:h-64"
+                  className="mx-auto h-auto w-full max-w-[180px] object-contain sm:max-w-[220px]"
                 />
               </div>
             </div>
@@ -64,14 +64,14 @@ export default function WhyChoose() {
                 </p>
               </div>
               <div className="px-6 py-8">
-                <div className="relative mx-auto flex h-56 w-full items-center justify-center sm:h-64">
+                <div className="relative mx-auto flex h-full w-full max-w-[180px] items-center justify-center sm:max-w-[220px]">
                   <Image
                     src="/images/66987-removebg-preview.png"
                     alt=""
                     width={512}
                     height={512}
                     aria-hidden
-                    className="h-full w-auto object-contain opacity-50 grayscale"
+                    className="h-auto w-full object-contain opacity-50 grayscale"
                   />
                   <span className="absolute bottom-2 rounded-full bg-ink/5 px-3 py-1 text-[0.65rem] font-semibold uppercase tracking-wider text-ink/40">
                     Placeholder
@@ -114,27 +114,14 @@ export default function WhyChoose() {
         </Reveal>
 
         <Reveal className="mt-12">
-          <div className="hidden md:block">
-            <div className="overflow-hidden rounded-2xl">
-              <Image
-                src="/images/Frame 254.png"
-                alt="Murasaki Beauty Rosacea-Prone Redness-Calming Serum in use"
-                width={1800}
-                height={1350}
-                className="-mt-40 h-auto w-full"
-              />
-            </div>
-          </div>
-          <div className="md:hidden">
-            <div className="overflow-hidden rounded-2xl">
-              <Image
-                src="/images/Frame 254.png"
-                alt="Murasaki Beauty Rosacea-Prone Redness-Calming Serum in use"
-                width={1800}
-                height={1350}
-                className="-mt-10 h-auto w-full"
-              />
-            </div>
+          <div className="overflow-hidden rounded-2xl">
+            <Image
+              src="/images/Frame 254.png"
+              alt="Murasaki Beauty Rosacea-Prone Redness-Calming Serum in use"
+              width={1800}
+              height={1350}
+              className="-mt-6 h-auto w-full sm:-mt-12 md:-mt-40"
+            />
           </div>
         </Reveal>
 

@@ -131,34 +131,6 @@ export default function Ingredients() {
           ))}
         </ol>
 
-        <div className="mx-auto mt-12 max-w-2xl">
-          <div className="overflow-hidden rounded-2xl">
-            <Image
-              src="/images/Frame 292.png"
-              alt="Rosacea-Prone Redness-Calming Serum on display"
-              width={2928}
-              height={1200}
-              className="h-auto w-full"
-            />
-          </div>
-        </div>
-
-        <div className="mx-auto mt-8 grid max-w-2xl grid-cols-3 gap-4">
-          {["Frame 247.png", "Frame 248.png", "Frame 249.png"].map((src) => (
-            <div
-              key={src}
-              className="overflow-hidden rounded-2xl border border-primary/10 bg-white shadow-sm"
-            >
-              <Image
-                src={`/images/${src}`}
-                alt="Rosacea-Prone Redness-Calming Serum"
-                width={2000}
-                height={2000}
-                className="h-auto w-full"
-              />
-            </div>
-          ))}
-        </div>
       </div>
     </section>
   );

@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { Sparkles, Flower2, Droplets, Heart, Ban } from "lucide-react";
 import Reveal from "./Reveal";
 
@@ -58,17 +57,6 @@ export default function BenefitsBand() {
           })}
         </div>
 
-        <Reveal className="mt-10">
-          <div className="mx-auto max-w-xs overflow-hidden rounded-2xl ring-1 ring-white/15 sm:max-w-sm md:max-w-md">
-            <Image
-              src="/images/Frame 240.png"
-              alt="Murasaki Beauty Rosacea-Prone Redness-Calming Serum"
-              width={2000}
-              height={2000}
-              className="h-auto w-full"
-            />
-          </div>
-        </Reveal>
       </div>
 
       <div className="bg-white">
