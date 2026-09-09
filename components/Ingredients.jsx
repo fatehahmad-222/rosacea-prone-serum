@@ -69,7 +69,7 @@ function IngredientRow({ name, benefit, image, width, height, index }) {
     >
       <div className="relative overflow-hidden rounded-3xl border border-primary/10 bg-white p-6 shadow-sm transition-all duration-300 ease-out hover:-translate-y-1 hover:border-accent/40 hover:shadow-xl hover:shadow-accent/10 md:p-8">
 
-        <div className="relative grid grid-cols-[minmax(0,1.6fr)_auto_minmax(0,1fr)] items-center gap-3 md:gap-4">
+        <div className="relative grid grid-cols-1 items-center gap-3 sm:grid-cols-[minmax(0,1.6fr)_auto_minmax(0,1fr)] md:gap-4">
           <div className="min-w-0">
             <span className="inline-flex h-[clamp(32px,4vw,36px)] w-[clamp(32px,4vw,36px)] items-center justify-center rounded-full border-2 border-accent bg-white">
               <span className="h-[clamp(14px,1.8vw,16px)] w-[clamp(14px,1.8vw,16px)] rounded-full bg-accent" />

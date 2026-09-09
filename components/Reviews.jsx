@@ -87,7 +87,7 @@ export default function Reviews() {
         <Reveal className="mt-10">
           <div className="mx-auto flex max-w-3xl flex-col items-center justify-center gap-6 rounded-2xl border border-primary/10 bg-white p-6 shadow-sm sm:flex-row sm:p-8">
             <div className="flex items-center gap-4">
-              <p className="text-6xl font-bold text-primary">{SUMMARY.score}</p>
+              <p className="text-5xl font-bold text-primary sm:text-6xl">{SUMMARY.score}</p>
               <div className="flex flex-col gap-1">
                 <div className="flex text-accent">
                   {Array.from({ length: 5 }, (_, i) => (

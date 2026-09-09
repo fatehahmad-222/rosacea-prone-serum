@@ -61,7 +61,7 @@ export default function PoweredBy() {
             
           </div>
 
-          <div className="hidden lg:col-span-5 lg:block">
+          <div className="order-first mx-auto max-w-xs lg:order-none lg:col-span-5 lg:mx-0 lg:max-w-none">
             <Reveal direction="right">
               <Image
                   src="/images/Frame 241.png"

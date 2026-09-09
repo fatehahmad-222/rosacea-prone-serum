@@ -9,7 +9,6 @@ import StatsBand from "../components/StatsBand";
 import Ingredients from "../components/Ingredients";
 import BeforeAfter from "../components/BeforeAfter";
 import Reviews from "../components/Reviews";
-import VisibleDailyCare from "../components/VisibleDailyCare";
 import HowToUse from "../components/HowToUse";
 import WhyChoose from "../components/WhyChoose";
 import FAQ from "../components/FAQ";
@@ -31,7 +30,6 @@ export default function Home() {
         <Ingredients />
         <BeforeAfter />
         <Reviews />
-        <VisibleDailyCare />
         <HowToUse />
         <WhyChoose />
         <FAQ />

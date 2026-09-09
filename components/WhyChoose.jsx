@@ -84,44 +84,36 @@ export default function WhyChoose() {
 
         <Reveal className="mt-10">
           <div className="overflow-hidden rounded-2xl border border-ink/10 bg-white shadow-sm">
-            <div className="grid grid-cols-[minmax(0,1fr)_auto_minmax(0,1fr)] gap-2 border-b border-ink/10 bg-bg-muted px-3 py-4 text-sm font-bold uppercase tracking-wider text-ink sm:grid-cols-[1fr_180px_180px] sm:px-5">
-              <span className="text-xs sm:text-sm">What you get</span>
+            <div className="hidden border-b border-ink/10 bg-bg-muted px-5 py-4 text-sm font-bold uppercase tracking-wider text-ink sm:grid sm:grid-cols-[1fr_180px_180px]">
+              <span className="text-sm">What you get</span>
               <span className="text-right text-primary">MURASAKI</span>
               <span className="text-right text-ink/50">Others</span>
             </div>
             {ROWS.map((row) => (
               <div
                 key={row.label}
-                className="grid grid-cols-[minmax(0,1fr)_auto_minmax(0,1fr)] items-center gap-2 border-b border-ink/5 px-3 py-5 last:border-b-0 sm:grid-cols-[1fr_180px_180px] sm:px-5"
+                className="border-b border-ink/5 px-4 py-5 last:border-b-0 sm:grid sm:grid-cols-[1fr_180px_180px] sm:items-center sm:gap-2 sm:px-5"
               >
-                <p className="pr-2 text-sm leading-snug text-ink/85 sm:text-base">
+                <p className="mb-3 text-sm leading-snug text-ink/85 sm:mb-0 sm:text-base">
                   {row.label}
                 </p>
-                <div className="flex items-center justify-end gap-1.5">
-                  <span className="flex h-6 w-6 items-center justify-center rounded-full bg-primary/10">
-                    <Check className="h-4 w-4 text-primary" />
-                  </span>
-                </div>
-                <div className="grid grid-cols-[minmax(0,1fr)_auto] items-center gap-1.5">
-                  <span className="text-right text-xs text-ink/50 sm:text-sm">{row.theirs}</span>
-                  <span className="flex h-6 w-6 items-center justify-center rounded-full bg-ink/5">
-                    <X className="h-4 w-4 text-ink/40" />
-                  </span>
+                <div className="flex items-center gap-4">
+                  <div className="flex flex-1 items-center justify-between gap-1.5 sm:flex-initial sm:justify-end">
+                    <span className="text-xs font-semibold uppercase text-primary sm:hidden">Murasaki</span>
+                    <span className="flex h-6 w-6 items-center justify-center rounded-full bg-primary/10">
+                      <Check className="h-4 w-4 text-primary" />
+                    </span>
+                  </div>
+                  <div className="flex flex-1 items-center justify-between gap-1.5 sm:flex-initial sm:justify-end">
+                    <span className="text-xs font-semibold uppercase text-ink/40 sm:hidden">Others</span>
+                    <span className="text-right text-xs text-ink/50 sm:text-sm">{row.theirs}</span>
+                    <span className="flex h-6 w-6 items-center justify-center rounded-full bg-ink/5">
+                      <X className="h-4 w-4 text-ink/40" />
+                    </span>
+                  </div>
                 </div>
               </div>
             ))}
-          </div>
-        </Reveal>
-
-        <Reveal className="mt-12">
-          <div className="overflow-hidden rounded-2xl">
-            <Image
-              src="/images/Frame 254.png"
-              alt="Murasaki Beauty Rosacea-Prone Redness-Calming Serum in use"
-              width={1800}
-              height={1350}
-              className="-mt-6 h-auto w-full sm:-mt-12 md:-mt-40"
-            />
           </div>
         </Reveal>
 
